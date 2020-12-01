@@ -1,4 +1,5 @@
-FROM openjdk:16-jdk-alpine3.12
-COPY HelloWorld.java .
-RUN javac HelloWorld.java
-ENTRYPOINT ["java","HelloWorld.java"]
+class helloWorld{
+    public static void main(String[] args){
+        System.out.println("Hello World");
+    }
+}
