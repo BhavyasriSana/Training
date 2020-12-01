@@ -1,5 +1,3 @@
-[17:33] Talluri,M,Maheedhar,TAF2 C
-    
 FROMubuntu:16.04
 RUNapt-getupdate \
 &&apt-getinstall-ynginx \
